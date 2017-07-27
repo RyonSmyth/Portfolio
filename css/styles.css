@@ -1,0 +1,159 @@
+/* Entire Body Styles */
+body {
+	font-family: 'Lato', sans-serif;
+	color: #616D7E;
+}
+
+.container {
+	padding: 0 5%;
+}
+
+.container h2 {
+	text-align: center;
+	font-weight: bold;
+	padding: 55px 0;
+
+}
+
+.container h3 {
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.blue-background {
+	background-color: #2098D1;
+	color: white;
+}
+
+.blue-font {
+	color: #2098D1;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	transition: background-color 600ms;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #2098D1;
+	background-color: white;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+	transition: background-color 600ms;
+}
+.navbar-default .navbar-brand:hover {
+	color: #2098D1;
+	background-color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+
+
+
+/* Jumbotron Styles */
+.jumbotron {
+	text-align: center;
+	margin-bottom: 0;
+	
+}
+
+.jumbotron-container {
+	padding: 5.5% 0;
+
+}
+
+.jumbotron h1 {
+	font-size: 2.8em;
+}
+
+.jumbotron h2 {
+	font-size: 1.8em;
+}
+
+
+
+/* Experience Styles */
+#experience .fa {
+	font-size: 5em;
+	width: 100%;
+	text-align: center;
+
+}
+
+#experience p {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+/* Project Styles */
+
+
+#projects img {
+	width: 100%;
+	height: auto;
+}
+
+.img-container {
+	position: relative;
+	filter: grayscale(80%);
+}
+
+.img-container:hover {
+	filter: grayscale(0%);
+}
+
+.img-title {
+	position: absolute;
+	top: 25%;
+	color: white;
+	text-shadow: 2px 2px #616D7E;
+	width: 100%;
+	font-size: 5em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	text-align: center;
+	
+}
+
+/* Contact Styles*/
+
+#contact p {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#contact button {
+
+	float: right;
+}
+
+.btn-default:hover {
+
+	background-color: white;
+	color: #616D7E;
+}
+
+#contact {
+	padding-bottom: 7%;
+}
+
+/* Footer Styles*/
+footer {
+	width: 100%;
+	background-color: #616D7E;
+	color: white;
+}
+
+footer p {
+	padding: 1% 2%;
+	margin-bottom: 0;
+
+}
