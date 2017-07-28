@@ -36,16 +36,20 @@
    				</div><!-- End navbar-collapse -->
   			</div><!-- End container-fluid -->
 		</nav>
-		<div class="jumbotron jumbotron-fluid blue-background">
-  			<div class="jumbotron-container">
+		<header class="jumbotron jumbotron-fluid blue-background row">
+  			<div class="jumbotron-container col-sm-12">
     				<h1 >Ryan Smith</h1>
     				<h2 >Front-end Web Developer</h2>
   			</div> <!-- End Jumbotron-Container -->
-		</div> <!-- End Jumbotron -->
+		</header> <!-- End Jumbotron -->
 
-		<div class="container">
+		<div class="container ">
 			<div id="experience">
-				<h2> Experience </h2>
+				<div class="row">
+					<div class="col-sm-12">
+						<h2> Experience </h2>
+					</div><!-- End Column -->
+				</div><!-- End Row -->
 				<div class="row">
 					<div class="col-sm-12 col-md-4">
 						<i class="fa fa-code blue-font" aria-hidden="true"></i>
@@ -67,36 +71,44 @@
 
 			</div><!-- End Experience-->
 			<div id="projects">
-				<h2> Projects </h2>
+				<div class="row">
+					<div class="col-sm-12">
+						<h2> Projects </h2>
+					</div><!-- End Column -->
+				</div><!-- End Row -->
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-3">
 						<div class="img-container">
-							<img class="img-responsive" src="img/example.jpg" >
+							<img class="img-responsive" src="img/example.jpg" alt="Computer Coding">
 							<h4 class="img-title">Test</h4>
 						</div><!-- End img-container -->
 					</div><!-- End Column -->
 					<div class="col-xs-12 col-sm-6 col-md-3">
 						<div class="img-container">
-							<img class="img-responsive" src="img/example2.jpg" >
+							<img class="img-responsive" src="img/example2.jpg" alt="Tech Office">
 							<h4 class="img-title">Test</h4>
 						</div><!-- End img-container -->
 					</div><!-- End Column -->
 					<div class="col-xs-12 col-sm-6 col-md-3">
 						<div class="img-container">
-							<img class="img-responsive" src="img/example3.jpg" >
+							<img class="img-responsive" src="img/example3.jpg" alt="Web Development Code" >
 							<h4 class="img-title">Test</h4>
 						</div><!-- End img-container -->
 					</div><!-- End Column -->
 					<div class="col-xs-12 col-sm-6 col-md-3">
 						<div class="img-container">
-							<img class="img-responsive" src="img/example4.jpg" >
+							<img class="img-responsive" src="img/example4.jpg" alt="Computer Coding">
 							<h4 class="img-title">Test</h4>
 						</div><!-- End img-container -->
 					</div><!-- End Column -->
 				</div> <!-- End Row-->
 			</div><!-- End Projects-->
 			<div id="contact">
-				<h2> Contact Me </h2>
+				<div class="row">
+					<div class="col-sm-12">
+						<h2> Contact Me </h2>
+					</div><!-- End Column -->
+				</div><!-- End Row -->
 				<div class="row">
 					<div class="col-xs-12 col-md-6">
 						<p>
@@ -124,7 +136,7 @@
   							</div> <!-- End form-group -->
   							<div class="form-group">
     							<label for="message">*Message:</label>
-    							<textarea type="text" class="form-control" id="message" placeholder="Enter Message Here" required></textarea> 
+    							<textarea class="form-control" id="message" placeholder="Enter Message Here" required></textarea> 
   							</div> <!-- End form-group -->
   							<button type="submit" class="btn btn-default blue-background">Submit</button>
 
@@ -134,10 +146,14 @@
 
 			</div><!-- End Contact -->
 
+
 		</div> <!-- End Container -->
-		<footer>
-		  <p> &copy; Ryan Smith </p>
-		</footer>
+		<footer class="container-fluid row">
+			<div class="col-sm-12">
+		  		<p> &copy; Ryan Smith </p>
+		  	</div><!-- End Column -->
+		</footer><!-- End Footer -->
+
 
 		<!-- Javascript --> 
 		<script src="js/jquery-3.2.1.min.js"></script>
